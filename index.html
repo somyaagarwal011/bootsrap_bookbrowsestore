@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Books Browse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn.dribbble.com/users/1814782/screenshots/4953155/media/e3a9361ade8f680ee4f6f6b11aaa18f4.jpg?resize=400x0" alt="books browse" width="70px" height="35px" alt="">
+          </a>
+          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/">Fiction</a></li>
+                  <li><a class="dropdown-item" href="/">Romance</a></li>
+                  <li><a class="dropdown-item" href="/">Mystery</a></li>
+                  <li><a class="dropdown-item" href="/">Horror</a></li>
+                  <li><a class="dropdown-item" href="/">Trading</a></li>
+                </ul>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Authors.html">Authors</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Launches
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/">Last month</a></li>
+                  <li><a class="dropdown-item" href="/">Last 6 months</a></li>
+                  <li><a class="dropdown-item" href="/">Last year</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/ContactUS.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+   
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=1824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Psychology Of Money</h5>
+              <p>By Morgan Housel</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=1824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>How Innovation Works</h5>
+              <p>By Matt Ridley</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1640497067198-453a33ef31b7?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Unseen Vogue</h5>
+              <p>By Robin Derrick and Robbin Muir</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1555252586-d77e8c828e41?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Your Heart Is The Sea</h5>
+              <p>By Nikita Gill</p>
+            </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1639690283465-3fe1bd07c51c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"class= "d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>By Mere Christianity</h5>
+          <p> By C.S. Lewis</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1521123845560-14093637aa7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"class= "d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>101 Essays That Will Change The Way You Think</h5>
+          <p>By Brianna Weist</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1612969308146-066d55f37ccb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"class= "d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A Storytelling WorkBook For Beginners</h5>
+          <p>By B.Rain Bennett</p>
+        </div>
+    </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="anothersec">
+        <div class="row">
+        <div class="card" style="width: 18rem; margin-top: 7px; margin-left: 30px ; position: relative;">
+            <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9781478927815.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">See How Small </h5>
+              <p class="fs-6">Based on a real incident, a multiple murder at an Austin, Texas, frozen yogurt shop in 1991. The book alternates points of view, following people linked to the girls and their murders. There's Kate, the mother of Elizabeth and Zadie, whose "heart shapes itself around a lack.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin-top: 7px; position: relative;">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590282886i/9777.jpg" height="263px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The God Of Small Things</h5>
+              <p class="fs-6">It is a story about two children, Esthappen and Rahel. This was Arundhati Roy's debut novel is written in an evocative and poetic style that captures the essence of Kerala, a southern state in India,  highlighting issues of caste system, Keralite Syrian Christian lifestyle and communism. </p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin-top: 7px; position: relative;">
+            <img src="https://i5.walmartimages.com/seo/Mac-A-Prequel-Novella-School-Marshal-Novels-Paperback-9780996852982_10fc8719-3ce1-4d88-844e-821f1b52de7c_1.22ebe4df5ffeb6f39b458ac5d7635a93.jpeg" height="263px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MAC</h5>
+              <p class="fs-6">Mac is a youth novel by John MacLean about a young teenage boy dealing with a sexual assault. Mac was published in 1987 by Houghton Mifflin. Mac is a quiet 14-year-old schoolboy who is just discovering girls. But after that something happens to ruin their relationship. </p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin-top: 7px; position: relative;">
+            <img src="https://buku-digital.codakarta.com/wp-content/uploads/2023/09/9786020633176_.Atomic_Habit.jpg" height="263px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Atomic Habits</h5>
+            <p class="fs-6">Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results. </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-top: 7px; position: relative;">
+          <img src="https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9781643750286.jpg" height="263px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">If I Promise You Wings</h5>
+            <p class="fs-6">Making it feel very authentic and like you are in Paris. If I Promise You Wings is a contemporary YA taking place in Paris. At its heart, it's a grief story. Alix's best friend, Jeanne, has recently died in a car accident and Alix is trying her best to move on while still being haunted by Jeanne's memory.</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+            <button type="button" class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        </div> 
+      </section>
+
+      <h2 class="h2class" style="margin-top: 10px; margin-left: 7px;">Based on Real Stories...</h2>
+      <div class="row">
+      <div class="card mb-3" style="max-width: 540px; margin-left: 20px ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://d1pwnu15mzvjms.cloudfront.net/210x320/9781609452155.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Red Joan</h5>
+              <p class="card-text"><small class="text-body-secondary">By Jennie Rooney</small></p>
+              <p class="card-text">The book Inspired by the true story of Melita Norwood, unmasked in 1999 (at 87) as the KGB's longest-serving British spy, this briskly paced and well-researched historical novel centers on the life of Joan Stanley, a young physicist at Cambridge during the early years of World War II.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px; margin-left: 3px ;margin-top:5px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCM1bPea6Rv2FOm9RvjwX3yAeVdpd7G1IMEuDr-J4SHtAXf_bN" class="img-fluid rounded-start" style="margin-top: 3px;" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">A Long Walk To Water</h5>
+              <p class="card-text"><small class="text-body-secondary">By Linda Sue Park</small></p>
+              <p class="card-text">It is a short novel published in 2010.It blends the true story of Salva Dut whose story is based in 1985,a part of the Dinka tribe and a Sudanese Lost Boy,and the fictional story of Nya whose story is based in 2008,a young village girl that was a part of the Nuer tribe.Park used this book as a platform to support Dut's organization,Water for South Sudan.
+              </p>   
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px; margin-left: 20px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpoqKe05SKqd2qWQcxlHCYjfBogSJ_T5T8qmEK2zzjR1HD7N3F" class="img-fluid rounded-start" style="margin-top: 5px;" alt="..." >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday with Morrie</h5>
+              <p class="card-text"><small class="text-body-secondary">By Mitch Albom</small></p>
+              <p class="card-text">Life's Greatest Lesson is a 1997 memoir by American author Mitch Albom.It is about a series of visits Albom made to his former Brandeis University sociology professor,Morrie Schwartz,as Schwartz was dying from amyotrophic lateral sclerosis Albom's subsequent memoir has been widely reviewed and has received critical attention after features by The Boston Globe and Nightline about Schwartz's dying.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px; margin-left: 3px ; margin-top: 0px; padding-top: 0;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxq7_U9jdwWTAiD23jdy7tsMTIl5x-JR17w5Q-EfuUYboQQXuV" class="img-fluid rounded-start" style="margin-top: 5px;"alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Miss Burma</h5>
+              <p class="card-text"><small class="text-body-secondary">By Charmaine Craig</small></p>
+              <p class="card-text">A beautiful and poignant story of one family during the most violent and turbulent years of world history, Miss Burma is a powerful novel written by Charmaine Craig of love and war, colonialism and ethnicity, and the ties of blood,one prominent Burmese family struggling to overcome war and political repression while trying to build a meaningful life.</p>  
+            </div>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">View More</a>
+              </div>
+        </div>  
+      </div>
+    
+      <section class="anothersec2">
+        <div class="row">
+        <h2 class="text-h2" style=" margin-left: 7px;">Famous Books to Read...</h2>
+            <div class="card" style="width: 18rem; margin-left: 32px;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR819TtvIV0JJ5_Wzzfcnk3y2eXfPpamZmdbrg5ofv0Ydafpw_f" class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">To Kill a Mocking Bird</h5>
+                <p class="card-text">To Kill a Mockingbird by the American author Harper Lee is both a young girl's coming-of-age story and a darker drama about the roots and consequences of racism and prejudice, probing how good and evil can coexist within a single community or individual.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://bridgebooks.co.za/cdn/shop/products/TheBookThief9781784162122.jpg?v=1640089793" class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Book Thief</h5>
+                <p class="card-text">It is a story narrated by a compassionate Death who tells us about Liesel, a girl growing up in Germany during World War II.She steals books, learns to read, and finds comfort in words.Her family are the only main characters that survive the war.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKPneOFTvRKKmb4Qzd6_gF1bCqKB_RhJ3HlfZysW7h3CYfnoXf" class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pride and Prejudice</h5>
+                <p class="card-text">Pride and Prejudice is a romantic novel by Jane Austen, published anonymously in three volumes in 1813. It has inspired many stage and screen productions, one notable adaptation being a 1995 TV miniseries starring Jennifer Ehle and Colin Firth.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHiIkuYnyA9CnOMkvgTYn_JGvYjWLxcElYlttGsx9bdi6C_4Eq"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Women</h5>
+                <p class="card-text">The Women by Kristin Hannah is the story of one woman gone to war, but it shines a light on the story of all women who put themselves in harm's way to help others. Women whose sacrifice and commitment to their country has all too often been forgotten.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1644605295i/60393672.jpg"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">It Starts with Us</h5>
+                <p class="card-text">Atlas and Lily attempt to rekindle the love they felt for each other as teenagers, but must deal with the effects their love may have now as adults. Hoover illustrayes a beautiful, innocent love between Atlas and Lily who love each other like kids.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>
+          </section>
+      </div>
+
+      <section class="anothersec3">
+        <div class="row">
+        <h2 class="textt-h2" style=" margin-left: 7px; margin-top: 10px;">Romantic Novels...</h2>
+            <div class="card" style="width: 18rem; margin-left: 32px;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw6aK6SQphvT4bfJKNyYPJtqjMthie5OhQGfiLRd9EIaz770sG" class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fifty Shades Darker</h5>
+                <p class="card-text">Christian Grey tries to entice a cautious Anastasia back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from his past start to circle them, determined to destroy their hopes for a future together.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK5kxzHbEazVw0nNo4wxhjOQxVPfEKrfuOzn9wpdVlGvTR90QG" class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Love & other Words</h5>
+                <p class="card-text">Love and other words by Christina Lauren is a captivating contemporary romance novel that beautifully navigates the complexities of love, friendship, and missed opportunities. The story is about Macy Sorenson and Elliot Petropoulos, childhood friends who reconnect after years apart.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSffJf_AvaMMJuipcHMBBNFrwAzlZY8Mq1Ntp8srNOvfiWW5-JN"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Beach Reads</h5>
+                <p class="card-text">Beach Read by Emily Henry is not your typical fluffy romance; it tackles deeper themes of grief, forgiveness, and the complexities of love. With its clever plot twists and a satisfying ending, this book is a perfect escape that will make you laugh, cry, and believe in the power of second chances.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEM9stx3GEMRre97Wi6Tgkmb0Fy7zgY_7oQisACeA_Ui7pgrvs"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Maybe in Another Life</h5>
+                <p class="card-text"> About a young woman whose fate hinges on the choice she makes after bumping into an old flame; in alternating chapters, we see two possible scenarios unfold—with stunningly different results. At the age of twenty-nine, Hannah Martin still has no idea what she wants to do with her life.
+                </p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfxjtBH7mqNcP4K7PsnCA_eKVkx_uoTVcRMVzYvUTA99pjmugY"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Outlander</h5>
+                <p class="card-text">Outlander is a historical romance time-travel series initially set around the time of the Second World War, it focuses on nurse Claire Beauchamp, who travels through time to 18th-century Scotland, where she finds adventure and romance with the dashing Jamie Fraser.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>
+            <section class="anothersec4">
+              <div class="row">
+              <h2 class="ttextt-h2" style=" margin-left: 7px; margin-top: 10px;">Fictional Novels...</h2>
+              <div class="card" style="width: 18rem; margin-left: 30px;">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQghXXwIQhOz0gelGmdtlQfJ4OfN2sAeqzYW6pWY6n5uQIsHUNG"class="card-img-top" height="263px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Never Let Me Go</h5>
+                  <p class="card-text">Takes place in a dystopian version of late 1990s England, where the lives of ordinary citizens are prolonged through a state-sanctioned program of human cloning. The clones, referred to as students, grow up in special institutions away from the outside world.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXrvaG6ok_VtuJr6iQNCMNrio5EkHOXy7SbdJsmMzBDhgALNfn"class="card-img-top" height="263px;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Little Prince</h5>
+                    <p class="card-text">The Little Prince by Antoine De Saint-Exupery, fable and modern classic that was published with his own illustrations in French as Le Petit Prince in 1943. The simple tale tells the story of a child, the little prince, who travels the universe gaining wisdom.</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LU0QG__tYIPhRBuOBvVbEdYg9Oep2iMzUs-CJF-wSrvWmwAr"class="card-img-top" height="263px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">North and South</h5>
+                  <p class="card-text">Summary of North and South. The novel tells the story of Margaret Hale, a young woman who is forced to leave her comfortable life in the South of England and move to the industrial North, where she confronts the harsh realities of the Industrial Revolution.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRxdD7tWquroN4RfhCCpDQeOD7q4DnTHqUpp8gdAW9hzhoSftn"class="card-img-top" height="263px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Hobbit</h5>
+                <p class="card-text">The Hobbit is set in Middle-earth and follows home-loving Bilbo Baggins, the hobbit of the title, who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company, on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlSD8qzI8ZYwMurUdAXL_4BxU2i8gifHoPdtoH64K6jKRWc0PM"class="card-img-top" height="263px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Bell Jar</h5>
+              <p class="card-text">The life of Esther Greenwood, Student who dreams of becoming a poet. She is selected for a month-long summer internship as a guest editor but her time in New York City is unfulfilling as she struggles with issues of identity and societal norms.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button type="button" class="btn btn-primary">View More</button>
+            </div>
+      </div>
+
+        <h2 class="h2class" style="margin-top: 10px; margin-left: 7px;">Trading Books...</h2>
+      <div class="row">
+      <div class="card mb-3" style="max-width: 540px; margin-left: 20px ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Rich_Dad_Poor_Dad.jpg/220px-Rich_Dad_Poor_Dad.jpg" class="img-fluid rounded-start" style= "margin-top: 2px;" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Rich Dad Poor Dad</h5>
+              <p class="card-text"><small class="text-body-secondary">By Robert Kiyosaki</small></p>
+              <p class="card-text">The book is based on Kiyosaki's personal experiences with his two fathers - his biological father (poor dad) and his best friend's father (rich dad). The book provides a guide to financial literacy and teaches readers about the importance of financial education, creating wealth, and achieving financial freedom.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px; margin-left: 3px ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqEckzlHWOxT7Y75p_JAQeV5kOL7nrJw4pCIxMPs9VKkNW5uxD" class="img-fluid rounded-start" style="margin-top: 3px;" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">One Up On A Wall Street</h5>
+              <p class="card-text"><small class="text-body-secondary">By Peter Lynch</small></p>
+              <p class="card-text" style="margin-bottom: 15px;">It is a short novel published in 2010.It blends the true story of Salva Dut whose story is based in 1985,a part of the Dinka tribe and a Sudanese Lost Boy,and the fictional story of Nya whose story is based in 2008,a young village girl that was a part of the Nuer tribe.Park used this book as a platform to support Dut's organization,Water for South Sudan.</p>     
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="card mb-3" style="max-width: 540px; margin-left: 20px ;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8t902mozZtNMVvdk7a3yyhtE1ToWBBpWoa4-w_9oYPu7ebi1k" class="img-fluid rounded-start" style="margin-top: 3px;" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Think and Grow Rich</h5>
+                <p class="card-text"><small class="text-body-secondary">By Napoleon Hill</small></p>
+                <p class="card-text">Think and Grow Rich is a book written by Napoleon Hill and Rosa Lee Beeland released in 1937 and promoted as a personal development and self-improvement book. He claimed to be inspired by a suggestion from business magnate and later-philanthropist Andrew Carnegie. However, there is no evidence that the two ever met.</p>             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px; margin-left: 3px ;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSswDFFkmwCq8W4d5UZN40HY-ilsdZhwXbgE1svf2_Cj39lXbTq" class="img-fluid rounded-start" style="margin-top: 3px;" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">The Alchemy of Finance</h5>
+                <p class="card-text"><small class="text-body-secondary">By George Soros</small></p>
+                <p class="card-text" style="margin-bottom: 50px;">The Alchemy of Finance" The book is not an easy read, but reflects Soros' complicated and flexible approach to markets, expounds a new way of thinking about economic behaviour, demonstrating how financial players affect the movement of markets It is worth taking your time to read this book carefully, to fully understand reflexivity and the issues with the social sciences.</p>    
+              </div>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">View More</a>
+                </div>
+          </div> 
+        </div>
+
+       <h2 class="classh2" style="margin-left: 20px;">Sign In/Sign Up</h2>
+          <div class="mb-3" style="margin-left:20px ; margin-top: 10px; width: auto;">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3" style="margin-left: 20px;  margin-top:10px; width:auto;">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check" style="margin-left: 20px;">
+            <input type="checkbox" style="cursor:pointer" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: auto; margin-left: 30px; margin-bottom: 20px;">Submit</button>
+        </form>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted ">
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 ">
+            <i class="fas fa-gem me-3"></i>Books Browse
+          </h6>
+          <p class="cls1" style="margin-left: 15px;">
+            Books Browse was established in 2020 with the vision to provide an extensive library of books in digital format for free on the Internet.
+          </p>
+        </div>      
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+          Our Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Blog</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Books</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Categories</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Sale</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>     
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4" style="margin-left: 10px;">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div> 
+      </div> 
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BooksBrowse.com</a>
+  </div> 
+</footer>      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html> 
